@@ -8,4 +8,4 @@ St Petersburg - Russia:Russia:windows:windows-stpetersburg.cstorm.pw
 London - England:England:windows:windows-london.cstorm.pw
 Singapore-citystate:Singapore:windows:windows-singapore.cstorm.pw
 Reykjavik - Iceland:Iceland:windows:windows-iceland.cstorm.pw
-Deneb - Cygnus:Cygnus:windows:windows-dynamic.cstorm.pw
+Deneb - Cygnus:Cygnus:windows:windows-balancer.cstorm.pw
