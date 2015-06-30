@@ -1,3 +1,10 @@
+EDIT: added windows configs and rearranged the directory structure to be a little easier to navigate.
+I added the UDP and TCP configs for windows, but I haven't added TCP configs for mac/linux yet. 
+But you can connect to the linux/mac instances on TCP.
+And yes, you can use any port to connect to any instance (including cryptofree).
+
+...
+
 this is the time in the show when we... config?
 
 A still-being-populated place where our various client-side configuration files ("conf's") reside, to provide additional options for members seeking full sets for a given OS, or to create dynamic links via git/wget to specific data in the files themselves.
