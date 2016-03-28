@@ -1,4 +1,4 @@
-README for Tunnelblick OS X - Cryptostorm.is
+How-to: Cryptostorm VPN access via the Tunnelblick OpenVPN client on OS X
 
 1. Download .ovpn file(s)
 2. Download ca.crt file
