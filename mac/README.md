@@ -13,6 +13,7 @@ All configs in this directory are compatible for Tunnelblick OS X and OpenVPN iO
 	4. Enter the hash of your Cryptostorm token as username
 	5. Enter anything as password
 	
-<b>How-to: Cryptofree_mac.ovpn (Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)</b>
+<b>How-to: Cryptofree_mac.ovpn 
+(Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)</b>
 
 1. Same procedure as described above. When Tunnelblick asks for username and password after clicking on the "Connect" button, just enter whatever you want.
