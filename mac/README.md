@@ -1,5 +1,5 @@
 All configs in this directory are compatible for Tunnelblick OS X and OpenVPN iOS App. 
-- Just download and install - Hassle free! -
+-- Just download and install - Hassle free! --
 
 How-to: Cryptostorm VPN access via the Tunnelblick OpenVPN client on OS X
 
