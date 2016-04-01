@@ -1,4 +1,4 @@
-All configs in this directory are compatible for Tunnelblick OS X and OpenVPN iOS App. 
+All configs in this directory are compatible for Tunnelblick OS X and the OpenVPN iOS App. 
 
 -- Just download and install - Hassle free! --
 
