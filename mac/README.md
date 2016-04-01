@@ -1,7 +1,5 @@
 All configs in this directory are compatible for Tunnelblick (Open Source VPN Client for OS X), the OpenVPN iOS App and Viscosity (Proprietary VPN Client for OS X)
 
--- Just download and install - Hassle free! --
-
 ------------------------
 
 <b>How-to: Configuration via Tunnelblick</b>
