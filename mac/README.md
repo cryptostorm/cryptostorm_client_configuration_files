@@ -2,7 +2,7 @@ All configs in this directory are compatible for Tunnelblick OS X and OpenVPN iO
 
 -- Just download and install - Hassle free! --
 
-How-to: Cryptostorm VPN access via the Tunnelblick OpenVPN client on OS X
+<b>How-to: Cryptostorm VPN access via the Tunnelblick OpenVPN client on OS X</b>
 
 1. Download .ovpn file(s)
 2. Double click each .ovpn file in order to initiate Tunnelblick installation of the cstorm configuration 
@@ -13,6 +13,6 @@ How-to: Cryptostorm VPN access via the Tunnelblick OpenVPN client on OS X
 	4. Enter the hash of your Cryptostorm token as username
 	5. Enter anything as password
 	
-How-to: Cryptofree_mac.ovpn (Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)
+<b>How-to: Cryptofree_mac.ovpn (Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)</b>
 
 1. Same procedure as described above. When Tunnelblick asks for username and password after clicking on the "Connect" button, just enter whatever you want.
