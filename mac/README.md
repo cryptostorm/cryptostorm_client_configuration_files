@@ -1,11 +1,11 @@
-All configs in this directory are compatible for Tunnelblick (Open Source VPN Client for OS X), the OpenVPN iOS App and Viscosity (Proprietary VPN Client for OS X)
+All configs in this directory are compatible with Tunnelblick (Open Source VPN Client for OS X), the OpenVPN iOS App and Viscosity (Proprietary VPN Client for OS X)
 
 ------------------------
 
-<b>How-to: Configuration via Tunnelblick</b>
+<b>How-to: Configuration Tunnelblick</b>
 
-1. Download .ovpn file(s)
-2. Double click each .ovpn file to import the .ovpn file into Tunnelblick
+1. Download .ovpn file(s) from the cryptostorm_client_configuration_files GitHub repo, "mac" folder
+2. Import the .ovpn file into Tunnelblick
 3. Once imported, check Tunnelblick configuration of each installed .ovpn file:
 	1. "VPN Details..."
 	2. Click checkbox "Route all IPv4 traffic through the VPN"
@@ -21,10 +21,10 @@ All configs in this directory are compatible for Tunnelblick (Open Source VPN Cl
 
 ------------------------
 
-<b>How-to: Configuration via Viscosity</b>
+<b>How-to: Configuration Viscosity</b>
 
-1. Download .ovpn file(s)
-2. Double click each .ovpn file to import the .ovpn file into Viscosity
+1. Download .ovpn file(s) from the cryptostorm_client_configuration_files GitHub repo, "mac" folder
+2. Import the .ovpn file into Viscosity
 3. Once imported, navigate to the Viscosity preferences:
 	1. Select a configuration listed in the main screen.
 	2. Click on the "edit" button
