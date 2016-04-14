@@ -1,3 +1,3 @@
-Finally got around to updating the configs here.
+These configs are now up to date.
 
-Removed the mac dir since the linux configs should work fine on it.
+Oh and to those using the cryptofree configs, any username/password combination will work.
