@@ -15,7 +15,7 @@ All configs in this directory are compatible with Tunnelblick (Open Source VPN C
 	
 <b>How-to: Cryptofree_mac.ovpn</b>
 
-(Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)</b>
+(Free access to Cryptostorm VPN - No token needed - Capped @ ≈ 160kb down & 130kb up)</b>
 
 1. Same procedure as described above. When Tunnelblick asks for username and password after clicking on the "Connect" button, just enter whatever you want.
 
@@ -36,6 +36,6 @@ All configs in this directory are compatible with Tunnelblick (Open Source VPN C
 
 <b>How-to: Cryptofree_mac.ovpn</b>
 
-(Free access to Cryptostorm VPN - No token needed - Capped @ 256kb down & 128kb up)</b>
+(Free access to Cryptostorm VPN - No token needed - Capped @ ≈ 160kb down & 130kb up)</b>
 
 1. Same procedure as described above. When Viscosity asks for username and password, just enter whatever you want.
