@@ -19,5 +19,5 @@ Options error: Unrecognized option or missing or extra parameter(s) in [PUSH-OPT
 ```
 But the connection is still successful.
 
-A new version of the Windows widget will be released shortly, which  
-will include support for these ECC instances.
+The latest Windows widget available at https://cryptostorm.is/windows has support for these ECC instances.
+Under Options -> Security select "Use ECC instances".
