@@ -6,7 +6,7 @@ The newer the version, the better the security.
 Even with older versions, the cryptography used is still considered very strong.
 
 If necessary, you can change the port in these configs to anything from 1 to 29999,
-excluding ports 5060, 5061, and 5062. Those three are reserved for the [ecc](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/rsa) configs,
+excluding ports 5061 and 5062. Those two are reserved for the [Ed25519](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519) and [Ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448) configs,
 and ports 30000-65535 are reserved for [port forwarding](https://cryptostorm.is/portfwd).
 
 See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information.

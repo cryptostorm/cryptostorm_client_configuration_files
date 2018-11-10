@@ -7,4 +7,8 @@ The newer the version, the better the security.
 `OpenVPN 2.4.x is required for the configs in this folder.`
 For the ones in [ecc/ed25519/](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519/) and [ecc/ed448/](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448/) you will need at least OpenVPN 2.4.3 AND [OpenSSL 1.1.1](https://www.openssl.org/source/openssl-1.1.1.tar.gz)
 
+If necessary, you can change the port in these configs to anything from 1 to 29999,
+excluding ports 5061 and 5062. Those two are reserved for the [Ed25519](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519) and [Ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448) configs,
+and ports 30000-65535 are reserved for [port forwarding](https://cryptostorm.is/portfwd).
+
 See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information.
