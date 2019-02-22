@@ -1,21 +1,11 @@
 [![N](https://cryptostorm.is/bloop.png)](https://cryptostorm.is/)
-These are the configs for our free service, [cryptofree](https://cryptostorm.is/cryptofree)
-The service is capped at about 160kbps down, 130 kbps up.
-It has the same security features as the paid servers, without anything additional such as port forwarding or transparent .onion/.i2p access.
-When using these configs in OpenVPN, any username/password combination will work.
-See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more technical information on the differences between these configs.
----
-[cryptofree_rsa-udp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_rsa-udp.ovpn) is the UDP config that uses an RSA server certificate along with a secp521r1 CA certificate.
-[cryptofree_rsa-tcp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_rsa-tcp.ovpn) is the TCP config that uses an RSA server certificate along with a secp521r1 CA certificate.
-`Almost any version of OpenVPN/OpenSSL will work with the RSA configs.`
----
-[cryptofree_secp521r1-udp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_secp521r1-udp.ovpn) is the UDP config that uses only secp521r1 certificates.
-[cryptofree_secp521r1-tcp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_secp521r1-tcp.ovpn) is the TCP config that uses only secp521r1 certificates.
-`At least OpenVPN 2.4.x is required for the secp521r1 configs.`
----
-[cryptofree_ed448-udp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_ed448-udp.ovpn) is the UDP config that uses only Ed448 certificates.
-[cryptofree_ed448-tcp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_ed448-tcp.ovpn) is the TCP config that uses only Ed448 certificates.
-[cryptofree_ed25519-udp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_ed25519-udp.ovpn) is the UDP config that uses only Ed25519 certificates.
-[cryptofree_ed25519-tcp.ovpn](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/cryptofree/cryptofree_ed25519-tcp.ovpn) is the TCP config that uses only Ed25519 certificates.
-`The latest OpenVPN AND OpenSSL 1.1.1 is required for the Ed448 or Ed25519 configs.`
+These configuration files are focused more on security than compatibility.
+They work with OpenVPN 2.4.0 through 2.4.7, and OpenSSL 1.0.1d through 1.1.1a
+Like the RSA configs, the level of security depends on the version of OpenVPN/OpenSSL you have.
+The newer the version, the better the security.
 
+If necessary, you can change the port in these configs to anything from 1 to 29999,
+excluding ports 5061 and 5062. Those two are reserved for the [Ed25519](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519) and [Ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448) configs,
+and ports 30000-65535 are reserved for [port forwarding](https://cryptostorm.is/portfwd).
+
+See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information.
