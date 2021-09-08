@@ -1,7 +1,6 @@
 [![N](https://cryptostorm.is/bloop.png)](https://cryptostorm.is/)
 
-These are the configs for our free service, [cryptofree](https://cryptostorm.is/cryptofree).  
-The service is capped at about 160kbps down, 130 kbps up.  
+These are the configs for our free service, [cryptofree](https://cryptostorm.is/cryptofree).   
 It has the same security features as the paid servers, without anything additional such as port forwarding or transparent .onion/.i2p access.  
 When using these configs in OpenVPN, any username/password combination will work.  
 See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information, or just read the comments in these configs.  
