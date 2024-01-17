@@ -1,4 +1,4 @@
-[![N](https://cryptostorm.is/bloop.png)](https://cryptostorm.is/)
+[![N](https://cryptostorm.is/images/bloop.png)](https://cryptostorm.is/)
 
 The most recent OpenVPN configuration files for cryptostorm are available here and [here](https://cryptostorm.is/configs/).
 
