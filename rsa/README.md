@@ -1,4 +1,4 @@
-[![N](https://cryptostorm.is/bloop.png)](https://cryptostorm.is/)
+[![N](https://cryptostorm.is/images/bloop.png)](https://cryptostorm.is/)
 
 These configuration files are focused more on compatibility than security.  
 They work with OpenVPN => 2.3.2 and OpenSSL => 1.0.0  
