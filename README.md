@@ -8,6 +8,6 @@ The configs in [ecc/ed25519](https://github.com/cryptostorm/cryptostorm_client_c
 
 The level of security you get with these configs depends on the version of OpenVPN/OpenSSL you have.  
 The newer the version, the better the security.  
-But even at the least possible security level, the cryptography used is still considered "unbreakable for the foreseeable future".
+But even at the lowest possible security level, the cryptography used is still considered "unbreakable for the foreseeable future".
 
 See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information, or just read the comments in these configs.
