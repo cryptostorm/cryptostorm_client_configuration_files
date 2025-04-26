@@ -11,5 +11,5 @@ The level of security you get with these configs depends on the version of OpenV
 The newer the version, the better the security.  
 But even at the lowest possible security level, the cryptography used is still considered "unbreakable for the foreseeable future".
 
-See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information, or just read the comments in these configs.
+See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information, or just read the comments in these configs.   
 See [https://cryptostorm.is/blog/pq-openvpn](https://cryptostorm.is/blog/pq-openvpn) for information on the post-quantum configs in mldsa87/
