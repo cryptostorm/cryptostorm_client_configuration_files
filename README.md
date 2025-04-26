@@ -4,10 +4,12 @@ The most recent OpenVPN configuration files for cryptostorm are available here a
 
 The configs in the [rsa](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/rsa) folder are more for compatibility than security. Works with OpenVPN => 2.3.2 and OpenSSL => 1.0.0  
 The configs in the [ecc](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/) folder are more for security than compatibility. Works with OpenVPN => 2.4.0 and OpenSSL => 1.0.1d  
-The configs in [ecc/ed25519](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519/) and [ecc/ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448/) work with OpenVPN => 2.4.3 and OpenSSL => 1.1.1  
+The configs in [ecc/ed25519](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed25519/) and [ecc/ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/ed448/) work with OpenVPN => 2.4.3 and OpenSSL => 1.1.1   
+The post-quantum configs in [ecc/mldsa87](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/mldsa87/) and [ecc/ed448](https://github.com/cryptostorm/cryptostorm_client_configuration_files/tree/master/ecc/mldsa87/) work with OpenVPN => 2.4.3 and OpenSSL => 3.5.0  
 
 The level of security you get with these configs depends on the version of OpenVPN/OpenSSL you have.  
 The newer the version, the better the security.  
 But even at the lowest possible security level, the cryptography used is still considered "unbreakable for the foreseeable future".
 
 See [https://cryptostorm.is/new](https://cryptostorm.is/new) for more information, or just read the comments in these configs.
+See [https://cryptostorm.is/blog/pq-openvpn](https://cryptostorm.is/blog/pq-openvpn) for information on the post-quantum configs in mldsa87/
